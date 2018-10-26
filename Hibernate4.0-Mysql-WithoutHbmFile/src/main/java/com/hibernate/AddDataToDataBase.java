@@ -25,8 +25,8 @@ public class AddDataToDataBase {
 		
 		Employee e1=new Employee();  
 		e1.setId(101);  
-		e1.setFirstName("Gaurav");  
-		e1.setLastName("Chawla");  
+		e1.setFirstName("Mahesh");  
+		e1.setLastName("Tamkhade");  
 
 		session.save(e1);
 		t.commit();
